@@ -1,0 +1,151 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+meta {
+  display: none;
+}
+
+.button
+{
+    background-color: yellow;
+    color: black;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    width:100px;
+    
+}
+.postButtons
+{   
+    margin-top:200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;   
+}
+
+
+
+
+
+.modal3{
+  display: none;
+  position: absolute; /* Stay in place */
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  padding-top: 5%;
+  padding-bottom: 25%;
+  padding-left: 30%;
+  padding-right: 40%;
+width: 40%; /* Full width */
+height: 68%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgba(0, 0, 0, 0.6);
+}
+.modal3-content{
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border-radius: 4px;
+max-width: 630px;
+height: 611px;
+}
+
+
+
+
+.close3 {
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  color:grey;
+  font-size: 40px;
+  font-weight: bold;
+}
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;    
+}
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+
+
+
+label{
+    font-size: 18px;
+    margin-top: 10px;
+    border: 0;
+    text-align: left;
+    align-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+input{
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+h5{
+  font-size: 14px;
+    margin-top: 10px;
+    border: 0;
+    text-align: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text{
+  width: 95%;
+  height: 300px;
+  
+}
+
+#create{
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 0;
+  cursor: pointer;
+  margin-left: 45%;
+  height: 45px;
+  align-content: center;
+}
+
+
+@media (max-width: 400px) {
+  #text { 
+      width: 200px;
+  }
+}
